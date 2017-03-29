@@ -88,6 +88,7 @@ describe('fizzBuzz(num)', function() {
 
 describe('isPrime(num)', function() {
   it('should return true if num is prime', function() {
+    expect(exercises.isPrime(2)).toBe(true);
     expect(exercises.isPrime(7)).toBe(true);
     expect(exercises.isPrime(97)).toBe(true);
   });
